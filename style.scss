@@ -1,0 +1,146 @@
+$primary-color: #401d4e;
+$font-family: 'Arial', sans-serif;
+$secondary-color: #ddcee3;
+header {
+  background-color: $primary-color;
+  color: white;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  nav {
+    display: flex; 
+    align-items: center;
+
+    img {
+      width: 15%; 
+      height: auto;
+      margin-right: 20px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      margin-left: auto; 
+      
+      li {
+        margin: 0 15px;
+
+        a {
+          color: white;
+          text-decoration: none;
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}
+
+body {
+  font-family: $font-family;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+
+  main{
+    font-family: $font-family;
+        img {
+          width: 100%;  
+          height: auto; 
+          display: block;
+        }
+        .image-container {
+            display: flex; 
+            justify-content: space-around;  
+          
+            .image-box {
+              text-align: center;  
+              width: 45%;  
+              margin: 20px 0;
+          
+              img {
+                width: 100%;  
+                height: auto;  
+                margin-bottom: 10px; 
+              }
+          
+              strong {
+                display: block;  
+                margin-bottom: 10px;  
+              }
+          
+              p {
+                font-size: 0.9rem; 
+              }
+            }
+          }
+          
+        .a{
+            padding: 50px;
+            text-align: center;
+            h1{
+            
+                font-weight: 300;
+            }
+        }
+        .txt{
+            background-color: $secondary-color ;
+        }
+        .container {
+            display: flex;  
+            justify-content: space-between;  
+            width: 100%;  
+           
+          
+            img {
+              width: 30%;  
+              height: auto; 
+              margin: 0 10px;  
+            }
+          }    
+      }
+      .cont {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50vh;
+        margin-top: 40px;  
+        padding: 20px;     
+      }
+      .vids {
+        display: flex;  
+        justify-content: space-between;  
+        flex-wrap: wrap; 
+        height: 80vh; 
+        padding: 20px;  
+        margin: 0 auto; 
+      
+        iframe {
+          width: 49%;  
+          height: auto;  
+          margin-bottom: 30px;
+        }
+      }
+      
+      
+      iframe {
+        width: 80%;  
+        height: 500px;  
+        border: none; 
+      }
+      footer{
+        text-align: center;
+        background-color: $primary-color;
+        color: white;
+        padding: 10px;
+
+      }
+    }
